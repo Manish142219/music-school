@@ -14,10 +14,7 @@ function HeroSection() {
                 fill="green"
             />
 
-
             <div className='p-4 relative z-10 w-full text-center'>
-
-
                 <h1 className='mt-20 md:mt-0 text-4xl md:text-7xl
                 font-bold bg-clip-text text-transparent
                  bg-gradient-to-b from-neutral-50 t0-neutral-400'
@@ -26,9 +23,10 @@ function HeroSection() {
                 </h1>
                 <p className='mt-4 font-normal text-base md:text-lg
                 text-neutral-300 max-w-lg mx-auto'
-                >Dive into our comprehensive music courses
+                >
+                    Dive into our comprehensive music courses
                     and transform your musical journey today.
-                    you're a beginner or looking to refine your skills,
+                    Whether you&apos;re a beginner or looking to refine your skills,
                     join us to unlock your true potential.
                 </p>
                 <div className='mt-4'>
@@ -42,13 +40,11 @@ function HeroSection() {
                         >
                            Explore courses
                         </Button>
-                        
                     </Link>
                 </div>
             </div>
         </div>
-
     )
 }
 
-export default HeroSection
+export default HeroSection;
